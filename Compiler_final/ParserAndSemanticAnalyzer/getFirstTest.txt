@@ -1,0 +1,11 @@
+S ::= a A B b c d
+S ::= 
+A ::= A S d
+A ::= 
+B ::= S A h
+B ::= e C
+B ::= 
+C ::= S f
+C ::= C g
+C ::= 
+$

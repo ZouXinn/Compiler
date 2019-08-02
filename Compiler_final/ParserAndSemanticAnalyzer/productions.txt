@@ -1,0 +1,43 @@
+F ::= X
+X ::= V ; X
+X ::= C ; X
+X ::= void main ( ) { L }
+V ::= V , id
+V ::= var T id
+C ::= const T id = id
+C ::= const T id = cid
+T ::= int
+T ::= real
+T ::= bool
+L ::= L M S
+L ::= S
+S ::= A ;
+S ::= V ;
+S ::= C ;
+S ::= if ( E ) M { L } N else M { L }
+S ::= if ( E ) M { L }
+S ::= while M ( E ) M { L }
+M ::= 
+N ::= 
+A ::= id = E
+A ::= id ++
+A ::= id --
+E ::= E + E
+E ::= E - E
+E ::= E * E
+E ::= E / E
+E ::= E % E
+E ::= ! E
+E ::= - E
+E ::= ( E )
+E ::= id
+E ::= cid
+E ::= E || M E
+E ::= E && M E
+E ::= E > E
+E ::= E < E
+E ::= E >= E
+E ::= E <= E
+E ::= E == E
+E ::= E != E
+$

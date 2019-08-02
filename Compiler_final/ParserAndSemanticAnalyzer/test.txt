@@ -1,0 +1,14 @@
+var real d1,d2,d3;
+const int i1 = 10;
+void main(){
+	var int a,b;
+	a = 10;
+	if(a>b&&a==b){
+		d1++;
+		a++;
+	}
+	while(a==b||a<b){
+		var real c;
+		c=c+a;
+	}
+}$

@@ -1,0 +1,8 @@
+double m_double = -5.56;//this is ,,,
+int m_int = -10;
+char a = 'a';
+string s = "hahahah";
+/*isasdnaosnasxmamxa*/
+void add(int a,int b){
+	return a+b;
+}$

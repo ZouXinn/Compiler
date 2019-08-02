@@ -1,0 +1,43 @@
+0	F ::= X				follow: $
+1	X ::= V ; X				follow: $
+2	X ::= C ; X
+3	X ::= void main ( ) { L }
+4	V ::= V , id			follow: , ;
+5	V ::= var T id
+6	C ::= const T id = id			follow: ;
+7	C ::= const T id = cid
+8	T ::= int				follow: id
+9	T ::= real
+10	T ::= bool
+11	L ::= L M S			follow: } id var const if while
+12	L ::= S
+13	S ::= A ;				follow: } id var const if while
+14	S ::= V ;
+15	S ::= C ;
+16	S ::= if ( E ) M { L } N else M { L }
+17	S ::= if ( E ) M { L }
+18	S ::= while M ( E ) M { L }
+19	M ::= 				follow: { ( id cid var const if while - !
+20	N ::= 				follow: else			
+21	A ::= id = E			follow: ;
+22	A ::= id ++
+23	A ::= id --
+24	E ::= E + E			follow: ) ; + - * / % || && > < >= <= == !=
+25	E ::= E - E
+26	E ::= E * E
+27	E ::= E / E
+28	E ::= E % E
+29	E ::= ! E
+30	E ::= - E
+31	E ::= ( E )
+32	E ::= id
+33	E ::= cid
+34	E ::= E || M E
+35	E ::= E && M E
+36	E ::= E > E
+37	E ::= E < E
+38	E ::= E >= E
+39	E ::= E <= E
+40	E ::= E == E
+41	E ::= E != E
+$

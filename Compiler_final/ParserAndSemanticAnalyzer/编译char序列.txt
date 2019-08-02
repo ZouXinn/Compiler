@@ -1,0 +1,7 @@
+nnnnnnnnnnnnn	nnnnnnnnnnnnn	nnyyynnnnnnnn	nnyyynnnnnnnn	nnnnnnnnnnnnn
+nnnnnnnnnnnnn	nnnnnnnnnnnnn	*yyyyynnnnnnnn	yyyyynnnnnnnn	yyyyynnnnnnnn
+yyyyynnnnnnnn	yyyyynnyyyynn	yyyyynnyyyynn    < > <= >= == != *
+*yyyyynyyyyyyy	yyyyynnyyyyyy  ||  && *
+
+
+增加E ::= cid后的序列
